@@ -85,7 +85,7 @@ footer {
 
 .pago {
     display: flex;
-    background-color: #58b0bf;
+    background-image: linear-gradient(to top, #318f97, #54a0a6, #71b2b5, #8dc4c5, #a8d6d6);
     color: #215558;
     font-size: 13px;
 }
@@ -97,7 +97,14 @@ footer {
     font-size: 8px;
 }
 
+.mov{
+    transition-property: all;
+    transition-duration: 0.4s;
+}
 
+.mov:hover {
+    transform: scale(1.1);
+}
 
 .formularioIframe {
     background-color: #63c8da96;
