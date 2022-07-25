@@ -1,1 +1,2 @@
 # libsarc-sol
+agrege animaciones
